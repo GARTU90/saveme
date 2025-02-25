@@ -1,9 +1,17 @@
-# saveme
+# SaveMe
 
-# introduccion / objetivo
-el proposito de este proyecto es ayudar a las personas a ubicar sus centros de salud donde tienen sus citas proximas y ubicar los lugares donde pueden adquirir su medicamento, asi como dsintos hospitales con servicios de emergencias para ayudar en caso de algun problema inmediato
+# Introduction
 
-# herramientas
+SaveMe is a panic button application designed to find the nearest hospital that treats the user's medical conditions.
 
-api de geolocalizacion y rutas de google
-una base de datos rudimentaria para guardar la informacion escencial para brindar el servicio
+# Objective
+
+The objective of the project is to save the life of a person experiencing a medical issue by obtaining their current location and informing them of the nearest hospital capable of treating their possible conditions. Additionally, the app will call emergency medical services.
+
+# Tools
+
+* Google Geolocation and Routing API
+
+* A rudimentary database to store essential information for providing a catalog of diseases
+
+* A system to search for the most suitable hospital
