@@ -1,8 +1,12 @@
 # SaveMe
 
-# Introduction
+# Abstract
 
 SaveMe is a panic button application designed to find the nearest hospital that treats the user's medical conditions.
+
+# Introduction
+
+The app will get your current location and find the closest hospital that can treat your condition. It will also call emergency services to speed up the process, from detecting the problem to getting help, increasing your chances of survival.
 
 # Objective
 
