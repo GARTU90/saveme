@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 # Cargar la clave API desde el archivo .env
 load_dotenv()
-API_KEY = os.getenv("GOOGLE_API_KEY")
+API_KEY = os.getenv("gak")
 
 if not API_KEY:
     raise ValueError("No se encontró la clave API en las variables de entorno.")
@@ -16,7 +16,7 @@ def obtener_ubicacion_actual():
     data = response.json()
     #esto lo hice yo y probablemnte deba eliminarlo
 
-    print(data)
+#    print(data)
     
     if "location" in data:
         lat, lng = data["location"]["lat"], data["location"]["lng"]
