@@ -14,6 +14,9 @@ def obtener_ubicacion_actual():
     url = f"https://www.googleapis.com/geolocation/v1/geolocate?key={API_KEY}"
     response = requests.post(url)
     data = response.json()
+    #esto lo hice yo y probablemnte deba eliminarlo
+
+    print(data)
     
     if "location" in data:
         lat, lng = data["location"]["lat"], data["location"]["lng"]
